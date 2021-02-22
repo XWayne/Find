@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.xiaoxin.home">
+
+    <application
+        android:allowBackup="true"
+        android:name=".HomeModuleApp"
+        android:label="moduleHome"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.SimpleComponent">
+        <activity android:name=".HomeActivity">
+            <intent-filter>
+                <action android:name="${MODULE_INTENT_ACTION}" />
+
+                <category android:name="${MODULE_INTENT_CATEGORY}" />
+            </intent-filter>
+        </activity>
+    </application>
+
+</manifest>

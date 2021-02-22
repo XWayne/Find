@@ -1,0 +1,7 @@
+include ':common'
+include ':service_find'
+include ':find'
+include ':service_home'
+include ':home'
+include ':app'
+rootProject.name = "simpleComponent"
