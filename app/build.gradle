@@ -38,7 +38,8 @@ dependencies {
     implementation project(':service_home')
 
     implementation project(':home')
-    implementation project(':find')
+//    implementation project(':find')
+    implementation 'com.github.XWayne:Find:1.0.0'
 
     testImplementation 'junit:junit:4.+'
     androidTestImplementation 'androidx.test.ext:junit:1.1.2'
